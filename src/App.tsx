@@ -16,10 +16,8 @@ export function App() {
       setIsNewTransactionModalOpen(false);
   }
 
-
   return (
     <>
-
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
       <Dashboard />
       <GlobalStyle />
@@ -27,8 +25,6 @@ export function App() {
         isOpen={isNewTransactionModalOpen}
         onRequestClose={handleCloseNewTransactionModal}
       />
-
-
     </>
   );
 }
